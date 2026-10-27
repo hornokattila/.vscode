@@ -1,0 +1,23 @@
+[user]
+	name = Attila Hornok
+	email = hornokattila@outlook.com
+	signingkey = ~/.ssh/id_ecdsa.pub
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+[core]
+	autocrlf = input
+	excludesFile = ~/src/.vscode/.gitignore
+[credential]
+	helper = store
+[push]
+	autoSetupRemote = true
+[rebase]
+	autoStash = true
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[submodule]
+	recurse = true
